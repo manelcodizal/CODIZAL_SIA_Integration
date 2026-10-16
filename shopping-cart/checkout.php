@@ -160,7 +160,7 @@ if ($jsonPayload === false) {
 $ch = curl_init();
 
 curl_setopt_array($ch, [
-    CURLOPT_URL => 'http://localhost/SIA_PHP_SQL_Integration/payment-gateway/api/payments.php',
+    CURLOPT_URL => 'http://localhost/CODIZAL_SIA_Integration/payment-gateway/api/payments.php',
     CURLOPT_POST => true,
     CURLOPT_POSTFIELDS => $jsonPayload,
     CURLOPT_RETURNTRANSFER => true,
